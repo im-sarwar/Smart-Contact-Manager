@@ -4,9 +4,9 @@ import search_contacts
 import update_contact
 import delete_contact
 
-
-while True:
-    def choice():
+def choice():
+    while True:
+    
         user_choice = input("    ------------    "
         "\nDo you want to "
         "\n1.Add Contacts"
@@ -44,4 +44,4 @@ while True:
             exit()
 
 
-    choice()
+choice()
